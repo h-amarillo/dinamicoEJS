@@ -9,12 +9,10 @@ const mainController = {
         res.render('index', { platillos });
     },
     detalle: (req, res) => {
-        const idRecuperado = req.params.id;
-        console.log(platilllos[idRecuperado]);
-        res.render('detalleMenu', {
+        const idRecuperado = req.params.id-1;
+        res.render('detalleMenu', { 
             platillo: platillos[idRecuperado]});
     }
 }; 
-
 //exportaar el modulo local del controlador de la ruta mainController
 module.exports = mainController;
