@@ -1,0 +1,43 @@
+const listaPlatos = [
+    {
+        id:1,
+        titulo: 'Carpaccio fresco',
+        descripcionDetallada: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        precio: '65.50',
+        img: 'Carpaccio-de-salmon.jpg'
+    },
+    {
+        id:2,
+        titulo: 'Risotto de berenjena',
+        descripcionCorta: 'Risotto de berenjena y queso de cabra',
+        descripcionDetallada: '',
+        precio: '47.00',
+        img: 'Risotto-berenjena-queso-cabra.jpg'
+    },
+    {
+        id:3,
+        titulo: 'Mousse de arroz',
+        descripcionCorta: 'Mousse de arroz con leche y aroma de azahar',
+        descripcionDetallada: '',
+        precio: '27.50',
+        img: 'Mousse-de-arroz-con-leche.jpg'
+    },
+    {
+        id:4,
+        titulo: 'Espárragos blancos',
+        descripcionCorta: 'Espárragos blancos con vinagreta de verduras y jamón ibérico',
+        descripcionDetallada: '',
+        precio: '37.50',
+        img: 'esparragos.png'
+    },
+    {
+        id:5,
+        titulo: 'Enchiladas placeras',
+        descripcionCorta: 'Platillo típico de Michoacan',
+        descripcionDetallada: '',
+        precio: '60.50',
+        img: 'enchiladasP.png'
+    }
+];
+
+module.exports = listaPlatos;
