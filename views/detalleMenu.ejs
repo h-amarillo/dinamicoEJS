@@ -13,7 +13,9 @@
       <!-- Menu Section -->
       <div class="ps-row ps-padding-64" id="menu">
         <div class="ps-col l6 ps-padding-large">
-          <h1 class="ps-center"><%= platillo.titulo %></h1>
+
+          <% for(const platillo of platillos){ %>
+          <h1 class="ps-center"><a href="/detalle/<%= platillo.idRecuperado %>"></a> <%= platillo.titulo %></h1>
           <br />
           <% if (platillo.descripcionDetallada == "") { %>
             <h4>"Platillo Típico"</h4>
@@ -24,11 +26,12 @@
           <p class="ps-text-grey">
             <%= platillo.precio %>
           </p>
+          <% } %>
         </div>
 
         <div class="ps-col l6 ps-padding-large ps-img-menu">
           <img
-            src="/images/<%= platillo.img %>">
+            src="/images/<%= platillo.img %>"
             class="ps-round ps-image ps-opacity-min"
             alt="Menu"
           />

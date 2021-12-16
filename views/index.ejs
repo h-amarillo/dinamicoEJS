@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<%- inlcude ('./headMain') %>
+<%- include('./headMain') %>
 <body>
   <!-- Navbar (sit on top) -->
 <%- include('./navbar') %>
@@ -15,7 +15,7 @@
   <!-- Page content -->
   <div class="ps-content">
     <!-- About Section -->
-  <%- incluide ('./about') %>
+  <%- include ('./about') %>
     <!-- Menu Section -->
     <div class="ps-row ps-padding-64" id="menu">
       <div class="ps-col l6 ps-padding-large">
@@ -40,8 +40,9 @@
       </div>
 
       <div class="ps-col l6 ps-padding-large ps-img-menu">
-        <img src="/images/menu.jpg">
-        class="ps-round ps-image ps-opacity-min" alt="Menu" />
+        <img src="/images/menu.jpg"
+        class="ps-round ps-image ps-opacity-min" alt="Menu"
+        />
       </div>
     </div>
 

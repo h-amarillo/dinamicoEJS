@@ -7,7 +7,7 @@ const mainRouter = express.Router();
 
 //==Definir rutas requeridas de acuerdo al recurso
 mainRouter.get('/', mainController.home);
-mainRouter.get('/detalle/:idRecuperado', mainController.detalle);
+mainRouter.get('/detalle/:id', mainController.detalle);
 
 
 module.exports = mainRouter; 
