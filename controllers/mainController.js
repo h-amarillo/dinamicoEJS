@@ -2,6 +2,8 @@
 //de acuerdo con el método requerido a traves de lo que se solicite en la ruta. 
 const path = require('path');
 const platillos = require('./platillos');
+const multer = require('multer');
+const upload = multer().single('avatarFile');
 
 //se crea la ruta a landing page
 const mainController = {
