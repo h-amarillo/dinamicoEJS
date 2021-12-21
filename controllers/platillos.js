@@ -36,7 +36,7 @@ const listaPlatos = [
         descripcionCorta: 'Platillo típico de Michoacan',
         descripcionDetallada: '',
         precio: '60.50',
-        img: 'enchiladasP.png'
+        img: 'enchiladasP.jpg'
     }
 ];
 
